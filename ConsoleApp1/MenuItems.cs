@@ -6,32 +6,23 @@ namespace RestaurantMenu
 {
     class MenuItems
     {
-        private decimal _price;
         //private String _description;
         //private String _category;
         //private DateTime _dateAdded;
         //private Boolean _isNew;
 
-        public decimal Price
-        {
-            get
-            {
-                return _price;
-            }
-            set
-            {
-                _price = value;
-            }
-        }
+        public double Price { get; set; }
 
         public String Description { get; set; }
         public String Category { get; set; }
         public DateTime DateAdded { get; set; }
 
         public Boolean IsNew { get; set; }
+        public string Name { get; set; }
 
-        public MenuItems (String description, decimal price, String category, DateTime dateAdded, Boolean isNew)
+        public MenuItems (String name, String description, double price, String category, DateTime dateAdded, Boolean isNew)
         {
+            Name = name;
             Description = description;
             Price = price;
             Category = category;
@@ -39,7 +30,7 @@ namespace RestaurantMenu
             IsNew = isNew;
 
         }
-        public MenuItems(String description, decimal price, String category)
+        public MenuItems(String description, double price, String category)
         {
             Description = description;
             Price = price;
@@ -49,9 +40,41 @@ namespace RestaurantMenu
 
         }
 
-        
+        public bool NewItem()
+        {
+            if(DateAdded < DateTime.Today)
+            {
+                return IsNew = false;
+            }
+            return IsNew = true;
+        }
 
- 
+        public override string ToString()
+        {
+            return $"{Name} is a {Category} and has a price of ${Price}. \n Description {Description} \n Added on {DateAdded}";
+        }
 
+        public override bool Equals(object obj)
+        {
+
+            if (obj == null)
+            {
+                return false;
+            }
+            if (obj.GetType() != this.GetType())
+            {
+                return false;
+            }
+
+            MenuItems m = obj as MenuItems;
+            return m.Name == Name;
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
     }
+
+
 }

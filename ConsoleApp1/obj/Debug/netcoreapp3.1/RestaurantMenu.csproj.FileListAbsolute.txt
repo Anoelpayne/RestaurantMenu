@@ -11,3 +11,16 @@ C:\Users\vboaten\git_exercises\csharp-pracitce\RestaurantMenu\ConsoleApp1\bin\De
 C:\Users\vboaten\git_exercises\csharp-pracitce\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.dll
 C:\Users\vboaten\git_exercises\csharp-pracitce\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.pdb
 C:\Users\vboaten\git_exercises\csharp-pracitce\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.genruntimeconfig.cache
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.csprojAssemblyReference.cache
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.AssemblyInfoInputs.cache
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.AssemblyInfo.cs
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.csproj.CoreCompileInputs.cache
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.dll
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.pdb
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\bin\Debug\netcoreapp3.1\RestaurantMenu.exe
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\bin\Debug\netcoreapp3.1\RestaurantMenu.deps.json
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\bin\Debug\netcoreapp3.1\RestaurantMenu.runtimeconfig.json
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\bin\Debug\netcoreapp3.1\RestaurantMenu.runtimeconfig.dev.json
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\bin\Debug\netcoreapp3.1\RestaurantMenu.dll
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\bin\Debug\netcoreapp3.1\RestaurantMenu.pdb
+C:\Users\anoel\Source\Repos\RestaurantMenu\ConsoleApp1\obj\Debug\netcoreapp3.1\RestaurantMenu.genruntimeconfig.cache
